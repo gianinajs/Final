@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fjalla One", sans-serif; }
+
+body {
+  background-color: black; }
+
+h1 {
+  text-transform: uppercase;
+  background-color: black;
+  color: grey; }
+
+nav div ul li a {
+  text-transform: uppercase; }
+
+nav div ul li a:hover {
+  display: block;
+  background-color: #a8a5a5;
+  border-radius: 5%; }
+
+h2 {
+  margin-top: 5px;
+  margin-left: auto;
+  text-transform: uppercase;
+  padding: 10px;
+  color: grey;
+  background-color:black; }
+
+article {
+  color: grey;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 1.6rem; }
+
+.parrafoIndex {
+  padding: 10px;
+  font-size: 1.2rem;
+  color: grey; }
+
+footer .textoFooter {
+  color: grey; }
+
+form {
+  background-color: grey;
+  border-radius: 0.25rem;
+  margin-inline-start: 150px;
+  margin-inline-end: 150px;
+  padding-top: 10px;
+  margin-bottom: 100px;
+}
+
+form .mb-3, form .form-select {
+  margin-top: 20px;
+  color: white; }
+
+  form .mb-3 .form-control, form .form-select .form-control {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%; }
+
+.btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: black;
+  border-color: grey; }
+
+.form-select {
+  width: 48%; }
+
+ol li {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem; }
+
+iframe {
+  margin-top: 5px;
+  margin-left: 50px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 50px;
+  padding-top: 10px; }
+
+.intro {
+ font-size: 1rem;
+}
+
+.img-footer {
+  color: grey;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+svg {
+  padding-left: 10px;
+}
+
+.opiniones {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 3rem;
+}
+
+.banner {
+  margin-top: 100px;
+}
+
+.netflix {
+  position: relative;
+  display: block;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: grey;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  text-align: center;
+  margin-block-start: 2em;
+  margin-block-end: 1em;
+  margin-inline-start: 180px;
+  margin-inline-end: 150px;
+  padding: 10px;
+}
+
+.title1{
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.637);
+  text-transform: capitalize;
+}
+
+.title3 {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.637);
+  text-transform: capitalize;
+}
+
+article div {
+  margin: 5px;
+  background-color: grey;
+}
+.title {
+  color:rgba(0, 0, 0, 0.637);
+  text-align: center;
+}
+
+.series {
+  margin:10px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.card {
+  position: relative;
+  display: block;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: grey;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  text-align: center;
+  margin-block-start: 2em;
+  margin-block-end: 1em;
+  margin-inline-start: 180px;
+  margin-inline-end: 150px;
+  padding: 10px;
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 767px){
+.container, .container-sm {
+    max-width: 540px;}
+.opiniones {
+  font-size: 1.5rem;}
+.intro {
+    font-size: 1rem;
+  }
+.title {
+  font-size: 1rem;
+}
+.title1 {
+  font-size: 0.8rem;
+}
+.title3 {
+  font-size: 0.5rem;
+}
+.iframe {
+  width: 100px;
+  height: 100px;
+}
+}
