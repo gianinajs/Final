@@ -81,7 +81,9 @@ iframe {
   margin-right: 10px;
   margin-bottom: 5px;
   padding-bottom: 50px;
-  padding-top: 10px; }
+  padding-top: 10px; 
+  width: 1280px;
+  height: 720px;}
 
 .intro {
  font-size: 1rem;
@@ -171,27 +173,90 @@ article div {
   padding: 10px;
 }
 
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  border: 1px solid;
+  border-radius: 0.25rem;
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 20px;
+    background-size: 100%;
+}
 
 
-@media only screen and (min-width: 0px) and (max-width: 767px){
-.container, .container-sm {
-    max-width: 540px;}
-.opiniones {
-  font-size: 1.5rem;}
-.intro {
-    font-size: 1rem;
+
+@media only screen and (max-width:768px){
+
+      .container, .container-sm {
+          max-width: 540px;}
+      .opiniones {
+        font-size: 1.5rem;}
+      .intro {
+          font-size: 1rem;
+        }
+      .title {
+        font-size: 1rem;
+      }
+      .title1 {
+        font-size: 0.8rem;
+      }
+      .title3 {
+        font-size: 0.5rem;
+      }
+      iframe {
+        height: 40vh;
+        width: 80vw;
+              }
+      form{
+        width: 100%;
+        margin: 0  }
+      .formatodecontacto {
+        font-size: 0.8rem;
+      }
+      #exampleInputEmail1 {
+        font-size: 0.8rem;
+      }
+      #exampleFormControlTextarea1{
+        font-size: 0.8rem;
+      } 
+      .series {
+        padding-bottom: 10px;
+        flex-direction: column;
+        margin-left: 60px;
+      }
+      .netflix {
+        margin-bottom: 10px;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;}
+      .logo {
+        width: 50px;
+        height: 50px;
+      }
+      .navbar-toggler {
+        display: flex;
+      }
+      .nav-link {
+        font-size: 0.8rem;
+      }
+      .dropdown-item{
+        font-size: 0.8rem;
+      }
+
+}
+
+@media only screen and (max-width:300px){
+  .series {
+    padding: 0;
+    flex-direction: column;
   }
-.title {
-  font-size: 1rem;
-}
-.title1 {
-  font-size: 0.8rem;
-}
-.title3 {
-  font-size: 0.5rem;
-}
-.iframe {
-  width: 100px;
-  height: 100px;
-}
+  .netflix {margin: 0;}
 }
