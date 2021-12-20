@@ -6,11 +6,6 @@
 body {
   background-color: black; }
 
-h1 {
-  text-transform: uppercase;
-  background-color: black;
-  color: grey; }
-
 nav div ul li a {
   text-transform: uppercase; }
 
@@ -19,24 +14,11 @@ nav div ul li a:hover {
   background-color: #a8a5a5;
   border-radius: 5%; }
 
-h2 {
-  margin-top: 5px;
-  margin-left: auto;
-  text-transform: uppercase;
-  padding: 10px;
-  color: grey;
-  background-color:black; }
-
 article {
   color: grey;
   text-transform: uppercase;
   margin-top: 20px;
   font-size: 1.6rem; }
-
-.parrafoIndex {
-  padding: 10px;
-  font-size: 1.2rem;
-  color: grey; }
 
 footer .textoFooter {
   color: grey; }
@@ -84,10 +66,6 @@ iframe {
   padding-top: 10px; 
   width: 1280px;
   height: 720px;}
-
-.intro {
- font-size: 1rem;
-}
 
 .img-footer {
   color: grey;
